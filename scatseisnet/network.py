@@ -33,7 +33,7 @@ output bins, etc.
 """
 
 import typing as T
-
+from scipy.signal.windows import tukey
 import numpy as np
 
 try:
